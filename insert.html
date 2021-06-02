@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+            background-color: rgb(206, 205, 205);
+        }
+        .container{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <form action="insert.php"  method="POST">
+            <input type="text" name="title" placeholder="Poem Title" class="form-control bg-dark text-white my-3 text-center" required>
+            <textarea name="content" class="form-control bg-dark text-white my-3 text-center" required></textarea>
+            <label for="hindi">Hindi</label>
+            <input type="radio" id="hindi" name="genre" value="hindi" checked>
+            <label for="marathi">Marathi</label>
+            <input type="radio" id="marathi" name="genre" value="marathi"><br>
+            <button type="submit" name="new_poem" class="btn btn-dark">Add Poem</button>
+        </form>
+    </div>
+    
+</body>
+</html>

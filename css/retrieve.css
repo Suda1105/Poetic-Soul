@@ -1,0 +1,20 @@
+body{
+    background-color: #c75359 ;
+    color: white;
+    text-align: center;
+}
+.poems{
+    text-align: center;
+    background-color: rgb(206, 205, 205);
+    color:#c75359 ;
+    padding-top: 2%;
+    max-width: 70%;
+}
+h2{
+    margin-top: 5%;
+    font-weight: bold;
+}
+h6{
+    font-weight: bold;
+    line-height:1.6; 
+}
